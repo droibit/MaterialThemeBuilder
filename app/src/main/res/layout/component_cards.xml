@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipToPadding="false"
+    android:paddingStart="@dimen/keyline_4"
+    android:paddingTop="@dimen/keyline_5"
+    android:paddingEnd="@dimen/keyline_4"
+    android:paddingBottom="@dimen/keyline_5">
+
+    <com.github.droibit.sample.materialthemebuilder.widget.LabelLinkView
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/card_label_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:linkUrl="https://material.io/design/components/cards.html" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/component_label_horizontal_margin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/label">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/card_header"
+                android:layout_width="match_parent"
+                android:layout_height="192dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/sample_image"
+                app:tint="?attr/colorSurface"
+                app:tintMode="multiply" />
+
+            <TextView
+                android:id="@+id/card_overline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/keyline_4"
+                android:layout_marginTop="@dimen/keyline_4"
+                android:text="@string/text_overline"
+                android:textAppearance="?attr/textAppearanceOverline"
+                android:textColor="@color/material_on_surface_emphasis_medium"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/card_header" />
+
+            <TextView
+                android:id="@+id/card_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/keyline_4"
+                android:firstBaselineToTopHeight="40dp"
+                android:text="@string/text_headline_6"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                android:textColor="@color/material_on_surface_emphasis_high_type"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/card_overline" />
+
+            <TextView
+                android:id="@+id/card_body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/keyline_4"
+                android:layout_marginEnd="@dimen/keyline_5"
+                android:firstBaselineToTopHeight="@dimen/keyline_5"
+                android:text="@string/lorem_ipsum"
+                android:textAppearance="?attr/textAppearanceBody2"
+                android:textColor="@color/material_on_surface_emphasis_medium"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/card_title" />
+
+            <Button
+                android:id="@+id/card_button_one"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/keyline_2"
+                android:layout_marginTop="@dimen/keyline_5"
+                android:layout_marginEnd="@dimen/keyline_0"
+                android:layout_marginBottom="@dimen/keyline_2"
+                android:text="@string/text_button"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/card_body" />
+
+            <Button
+                android:id="@+id/card_button_two"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/keyline_0"
+                android:layout_marginTop="@dimen/keyline_5"
+                android:layout_marginEnd="@dimen/keyline_2"
+                android:layout_marginBottom="@dimen/keyline_2"
+                android:text="@string/text_button"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@id/card_button_one"
+                app:layout_constraintTop_toBottomOf="@id/card_body" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
