@@ -6,14 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".ui.MainActivity">
 
-    <androidx.viewpager2.widget.ViewPager2
-        android:id="@+id/view_pager"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
-
     <com.google.android.material.appbar.AppBarLayout
-        style="@style/Widget.MaterialComponents.AppBarLayout.Surface"
+        android:id="@+id/appBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:translationZ="@dimen/elevation_default_top_app_bar">
@@ -50,7 +44,7 @@
                         android:layout_marginEnd="@dimen/keyline_4"
                         android:gravity="center_vertical"
                         android:text="@string/app_name"
-                        android:textAppearance="?attr/textAppearanceHeadline6"
+                        android:textAppearance="?attr/textAppearanceTitleLarge"
                         android:textStyle="bold"
                         app:fontFamily="@font/roboto_black_italic" />
 
@@ -87,5 +81,11 @@
             app:tabTextColor="?attr/colorOnSurface" />
 
     </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

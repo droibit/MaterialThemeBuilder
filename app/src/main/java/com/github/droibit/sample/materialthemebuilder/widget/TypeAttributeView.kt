@@ -30,7 +30,7 @@ class TypeAttributeView @JvmOverloads constructor(
             field = value
         }
 
-    var typeAttrPreviewText: String = context.getString(R.string.text_appearance_h1_label)
+    var typeAttrPreviewText: String = context.getString(R.string.text_appearance_small_label)
         set(value) {
             typeAttributePreviewTextView.text = value
             field = value

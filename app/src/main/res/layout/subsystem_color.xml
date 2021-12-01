@@ -18,6 +18,8 @@
         app:leadingIcon="@drawable/ic_colorize_24dp"
         app:linkUrl="https://material.io/design/color/the-color-system.html" />
 
+    <!-- colorPrimary -->
+
     <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -25,60 +27,6 @@
         android:layout_marginBottom="@dimen/keyline_2"
         android:text="colorPrimary"
         app:colorFillColor="?attr/colorPrimary"
-        app:colorStrokeColor="?attr/colorOnBackground" />
-
-    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/keyline_2"
-        android:layout_marginBottom="@dimen/keyline_2"
-        android:text="colorPrimaryVariant"
-        app:colorFillColor="?attr/colorPrimaryVariant"
-        app:colorStrokeColor="?attr/colorOnBackground" />
-
-    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/keyline_2"
-        android:layout_marginBottom="@dimen/keyline_2"
-        android:text="colorSecondary"
-        app:colorFillColor="?attr/colorSecondary"
-        app:colorStrokeColor="?attr/colorOnBackground" />
-
-    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/keyline_2"
-        android:layout_marginBottom="@dimen/keyline_2"
-        android:text="colorSecondaryVariant"
-        app:colorFillColor="?attr/colorSecondaryVariant"
-        app:colorStrokeColor="?attr/colorOnBackground" />
-
-    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/keyline_2"
-        android:layout_marginBottom="@dimen/keyline_2"
-        android:text="colorBackground"
-        app:colorFillColor="?android:attr/colorBackground"
-        app:colorStrokeColor="?attr/colorOnBackground" />
-
-    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/keyline_2"
-        android:layout_marginBottom="@dimen/keyline_2"
-        android:text="colorSurface"
-        app:colorFillColor="?attr/colorSurface"
-        app:colorStrokeColor="?attr/colorOnBackground" />
-
-    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/keyline_2"
-        android:layout_marginBottom="@dimen/keyline_2"
-        android:text="colorError"
-        app:colorFillColor="?attr/colorError"
         app:colorStrokeColor="?attr/colorOnBackground" />
 
     <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
@@ -95,6 +43,44 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/keyline_2"
         android:layout_marginBottom="@dimen/keyline_2"
+        android:text="colorPrimaryContainer"
+        app:colorFillColor="?attr/colorPrimaryContainer"
+        app:colorStrokeColor="?attr/colorOnBackground" />
+
+    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/keyline_2"
+        android:layout_marginBottom="@dimen/keyline_2"
+        android:text="colorOnPrimaryContainer"
+        app:colorFillColor="?attr/colorOnPrimaryContainer"
+        app:colorStrokeColor="?attr/colorOnBackground" />
+
+    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/keyline_2"
+        android:layout_marginBottom="@dimen/keyline_2"
+        android:text="colorPrimaryInverse"
+        app:colorFillColor="?attr/colorPrimaryInverse"
+        app:colorStrokeColor="?attr/colorOnBackground" />
+
+    <!-- colorSecondary -->
+
+    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/keyline_2"
+        android:layout_marginBottom="@dimen/keyline_2"
+        android:text="colorSecondary"
+        app:colorFillColor="?attr/colorSecondary"
+        app:colorStrokeColor="?attr/colorOnBackground" />
+
+    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/keyline_2"
+        android:layout_marginBottom="@dimen/keyline_2"
         android:text="colorOnSecondary"
         app:colorFillColor="?attr/colorOnSecondary"
         app:colorStrokeColor="?attr/colorOnBackground" />
@@ -104,8 +90,104 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/keyline_2"
         android:layout_marginBottom="@dimen/keyline_2"
-        android:text="colorOnBackground"
-        app:colorFillColor="?attr/colorOnBackground"
+        android:text="colorSecondaryContainer"
+        app:colorFillColor="?attr/colorSecondaryContainer"
+        app:colorStrokeColor="?attr/colorOnBackground" />
+
+    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/keyline_2"
+        android:layout_marginBottom="@dimen/keyline_2"
+        android:text="colorOnSecondaryContainer"
+        app:colorFillColor="?attr/colorOnSecondaryContainer"
+        app:colorStrokeColor="?attr/colorOnBackground" />
+
+    <!-- colorTertiary -->
+
+    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/keyline_2"
+        android:layout_marginBottom="@dimen/keyline_2"
+        android:text="colorTertiary"
+        app:colorFillColor="?attr/colorTertiary"
+        app:colorStrokeColor="?attr/colorOnBackground" />
+
+    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/keyline_2"
+        android:layout_marginBottom="@dimen/keyline_2"
+        android:text="colorOnTertiary"
+        app:colorFillColor="?attr/colorOnTertiary"
+        app:colorStrokeColor="?attr/colorOnBackground" />
+
+    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/keyline_2"
+        android:layout_marginBottom="@dimen/keyline_2"
+        android:text="colorTertiaryContainer"
+        app:colorFillColor="?attr/colorTertiaryContainer"
+        app:colorStrokeColor="?attr/colorOnBackground" />
+
+    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/keyline_2"
+        android:layout_marginBottom="@dimen/keyline_2"
+        android:text="colorOnTertiaryContainer"
+        app:colorFillColor="?attr/colorOnTertiaryContainer"
+        app:colorStrokeColor="?attr/colorOnBackground" />
+
+    <!-- colorError -->
+
+    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/keyline_2"
+        android:layout_marginBottom="@dimen/keyline_2"
+        android:text="colorError"
+        app:colorFillColor="?attr/colorError"
+        app:colorStrokeColor="?attr/colorOnBackground" />
+
+    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/keyline_2"
+        android:layout_marginBottom="@dimen/keyline_2"
+        android:text="colorOnError"
+        app:colorFillColor="?attr/colorOnError"
+        app:colorStrokeColor="?attr/colorOnBackground" />
+
+    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/keyline_2"
+        android:layout_marginBottom="@dimen/keyline_2"
+        android:text="colorErrorContainer"
+        app:colorFillColor="?attr/colorErrorContainer"
+        app:colorStrokeColor="?attr/colorOnBackground" />
+
+    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/keyline_2"
+        android:layout_marginBottom="@dimen/keyline_2"
+        android:text="colorOnErrorContainer"
+        app:colorFillColor="?attr/colorOnErrorContainer"
+        app:colorStrokeColor="?attr/colorOnBackground" />
+
+    <!-- colorSurface -->
+
+    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/keyline_2"
+        android:layout_marginBottom="@dimen/keyline_2"
+        android:text="colorSurface"
+        app:colorFillColor="?attr/colorSurface"
         app:colorStrokeColor="?attr/colorOnBackground" />
 
     <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
@@ -122,8 +204,64 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/keyline_2"
         android:layout_marginBottom="@dimen/keyline_2"
-        android:text="colorOnError"
-        app:colorFillColor="?attr/colorOnError"
+        android:text="colorSurfaceVariant"
+        app:colorFillColor="?attr/colorSurfaceVariant"
+        app:colorStrokeColor="?attr/colorOnBackground" />
+
+    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/keyline_2"
+        android:layout_marginBottom="@dimen/keyline_2"
+        android:text="colorOnSurfaceVariant"
+        app:colorFillColor="?attr/colorOnSurfaceVariant"
+        app:colorStrokeColor="?attr/colorOnBackground" />
+
+    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/keyline_2"
+        android:layout_marginBottom="@dimen/keyline_2"
+        android:text="colorSurfaceInverse"
+        app:colorFillColor="?attr/colorSurfaceInverse"
+        app:colorStrokeColor="?attr/colorOnBackground" />
+
+    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/keyline_2"
+        android:layout_marginBottom="@dimen/keyline_2"
+        android:text="colorOnSurfaceInverse"
+        app:colorFillColor="?attr/colorOnSurfaceInverse"
+        app:colorStrokeColor="?attr/colorOnBackground" />
+
+    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/keyline_2"
+        android:layout_marginBottom="@dimen/keyline_2"
+        android:text="colorOutline"
+        app:colorFillColor="?attr/colorOutline"
+        app:colorStrokeColor="?attr/colorOnBackground" />
+
+    <!-- colorBackground -->
+
+    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/keyline_2"
+        android:layout_marginBottom="@dimen/keyline_2"
+        android:text="colorBackground"
+        app:colorFillColor="?android:attr/colorBackground"
+        app:colorStrokeColor="?attr/colorOnBackground" />
+
+    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/keyline_2"
+        android:layout_marginBottom="@dimen/keyline_2"
+        android:text="colorOnBackground"
+        app:colorFillColor="?attr/colorOnBackground"
         app:colorStrokeColor="?attr/colorOnBackground" />
 
 </LinearLayout>

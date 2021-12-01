@@ -91,6 +91,7 @@ sealed class ComponentViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         }
     }
 
+    // TODO: It is not displayed after migrating to MD3.
     class TabsComponentViewHolder(
         parent: ViewGroup
     ) : ComponentViewHolder(inflate(parent, R.layout.component_tabs))

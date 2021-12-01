@@ -115,9 +115,9 @@ class ShapeAttributeView @JvmOverloads constructor(
     @StyleRes
     private fun getShapeAppearanceDefaultRes(@AttrRes shapeAppearanceRes: Int) =
         when (shapeAppearanceRes) {
-            R.attr.shapeAppearanceMediumComponent -> R.style.Widget_MaterialComponents_CardView
-            R.attr.shapeAppearanceLargeComponent -> R.style.Widget_MaterialComponents_NavigationView
-            else -> R.style.Widget_MaterialComponents_Button
+            R.attr.shapeAppearanceMediumComponent -> R.style.Widget_Material3_CardView_Elevated
+            R.attr.shapeAppearanceLargeComponent -> R.style.Widget_Material3_NavigationView
+            else -> R.style.Widget_Material3_Button
         }
 
     companion object {

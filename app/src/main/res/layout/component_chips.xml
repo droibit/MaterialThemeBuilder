@@ -36,24 +36,72 @@
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chip_filter"
-            style="@style/Widget.MaterialComponents.Chip.Filter"
+            style="@style/Widget.Material3.Chip.Filter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/chip_filter_title" />
 
         <com.google.android.material.chip.Chip
-            android:id="@+id/chip_choice"
-            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:id="@+id/chip_assist"
+            style="@style/Widget.Material3.Chip.Assist"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/chip_choice_title" />
+            android:text="@string/chip_choice_assist" />
 
         <com.google.android.material.chip.Chip
-            android:id="@+id/chip_entry"
-            style="@style/Widget.MaterialComponents.Chip.Entry"
+            android:id="@+id/chip_input"
+            style="@style/Widget.Material3.Chip.Input"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/chip_entry_title" />
+            android:text="@string/chip_suggestion_title" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_suggestion"
+            style="@style/Widget.Material3.Chip.Suggestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chip_suggestion_title" />
+
+    </com.google.android.material.chip.ChipGroup>
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chip_group_elevated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/component_label_horizontal_margin"
+        app:chipSpacing="@dimen/keyline_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chip_group">
+
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_filter_elevated"
+            style="@style/Widget.Material3.Chip.Filter.Elevated"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chip_filter_title" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_assist_elevated"
+            style="@style/Widget.Material3.Chip.Assist.Elevated"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chip_choice_assist" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_input_elevated"
+            style="@style/Widget.Material3.Chip.Input.Elevated"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chip_suggestion_title" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_suggestion_elevated"
+            style="@style/Widget.Material3.Chip.Suggestion.Elevated"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chip_suggestion_title" />
 
     </com.google.android.material.chip.ChipGroup>
 

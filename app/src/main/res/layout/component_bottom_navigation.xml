@@ -18,6 +18,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:linkUrl="https://material.io/design/components/bottom-navigation.html" />
 
+    <!-- TODO: It is not displayed after migrating to MD3.-->
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation_view"
         android:layout_width="match_parent"
