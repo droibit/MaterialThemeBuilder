@@ -21,6 +21,7 @@ import android.app.Application
 import android.content.Context
 import androidx.fragment.app.Fragment
 import com.github.droibit.sample.materialthemebuilder.data.PreferenceRepository
+import com.google.android.material.color.DynamicColors
 
 class App : Application() {
 
@@ -31,6 +32,8 @@ class App : Application() {
         preferenceRepository = PreferenceRepository(
             getSharedPreferences(DEFAULT_PREFERENCES, Context.MODE_PRIVATE)
         )
+
+        DynamicColors.applyToActivitiesIfAvailable(this)
     }
 
     companion object {
