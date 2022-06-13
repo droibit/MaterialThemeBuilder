@@ -9,7 +9,7 @@
     android:paddingStart="@dimen/keyline_4"
     android:paddingEnd="@dimen/keyline_4">
 
-    <com.github.droibit.sample.materialthemebuilder.widget.LabelLinkView
+    <com.example.android.materialthemebuilder.widget.LabelLinkView
         android:id="@+id/label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -18,7 +18,7 @@
         app:leadingIcon="@drawable/ic_format_size_24dp"
         app:linkUrl="https://material.io/design/typography/the-type-system.html#type-scale" />
 
-    <com.github.droibit.sample.materialthemebuilder.widget.TypeAttributeView
+    <com.example.android.materialthemebuilder.widget.TypeAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="textAppearanceDisplayLarge"
@@ -27,7 +27,7 @@
         android:layout_marginTop="@dimen/keyline_2"
         android:layout_marginBottom="@dimen/keyline_2" />
 
-    <com.github.droibit.sample.materialthemebuilder.widget.TypeAttributeView
+    <com.example.android.materialthemebuilder.widget.TypeAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="textAppearanceDisplayMedium"
@@ -36,7 +36,7 @@
         android:layout_marginTop="@dimen/keyline_2"
         android:layout_marginBottom="@dimen/keyline_2" />
 
-    <com.github.droibit.sample.materialthemebuilder.widget.TypeAttributeView
+    <com.example.android.materialthemebuilder.widget.TypeAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="textAppearanceDisplaySmall"
@@ -45,7 +45,7 @@
         android:layout_marginTop="@dimen/keyline_2"
         android:layout_marginBottom="@dimen/keyline_2" />
 
-    <com.github.droibit.sample.materialthemebuilder.widget.TypeAttributeView
+    <com.example.android.materialthemebuilder.widget.TypeAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="textAppearanceHeadlineLarge"
@@ -54,7 +54,7 @@
         android:layout_marginTop="@dimen/keyline_2"
         android:layout_marginBottom="@dimen/keyline_2" />
 
-    <com.github.droibit.sample.materialthemebuilder.widget.TypeAttributeView
+    <com.example.android.materialthemebuilder.widget.TypeAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="textAppearanceHeadlineMedium"
@@ -63,7 +63,7 @@
         android:layout_marginTop="@dimen/keyline_2"
         android:layout_marginBottom="@dimen/keyline_2" />
 
-    <com.github.droibit.sample.materialthemebuilder.widget.TypeAttributeView
+    <com.example.android.materialthemebuilder.widget.TypeAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="textAppearanceHeadlineSmall"
@@ -72,7 +72,7 @@
         android:layout_marginTop="@dimen/keyline_2"
         android:layout_marginBottom="@dimen/keyline_2" />
 
-    <com.github.droibit.sample.materialthemebuilder.widget.TypeAttributeView
+    <com.example.android.materialthemebuilder.widget.TypeAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="textAppearanceTitleLarge"
@@ -82,7 +82,7 @@
         android:layout_marginTop="@dimen/keyline_2"
         android:layout_marginBottom="@dimen/keyline_2" />
 
-    <com.github.droibit.sample.materialthemebuilder.widget.TypeAttributeView
+    <com.example.android.materialthemebuilder.widget.TypeAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="textAppearanceTitleMedium"
@@ -92,7 +92,7 @@
         android:layout_marginTop="@dimen/keyline_2"
         android:layout_marginBottom="@dimen/keyline_2" />
 
-    <com.github.droibit.sample.materialthemebuilder.widget.TypeAttributeView
+    <com.example.android.materialthemebuilder.widget.TypeAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="textAppearanceTitleSmall"
@@ -102,7 +102,7 @@
         android:layout_marginTop="@dimen/keyline_2"
         android:layout_marginBottom="@dimen/keyline_2" />
 
-    <com.github.droibit.sample.materialthemebuilder.widget.TypeAttributeView
+    <com.example.android.materialthemebuilder.widget.TypeAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="textAppearanceBodyLarge"
@@ -112,7 +112,7 @@
         android:layout_marginTop="@dimen/keyline_2"
         android:layout_marginBottom="@dimen/keyline_2" />
 
-    <com.github.droibit.sample.materialthemebuilder.widget.TypeAttributeView
+    <com.example.android.materialthemebuilder.widget.TypeAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="textAppearanceBodyMedium"
@@ -122,7 +122,7 @@
         android:layout_marginTop="@dimen/keyline_2"
         android:layout_marginBottom="@dimen/keyline_2" />
 
-    <com.github.droibit.sample.materialthemebuilder.widget.TypeAttributeView
+    <com.example.android.materialthemebuilder.widget.TypeAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="textAppearanceBodySmall"
@@ -132,7 +132,7 @@
         android:layout_marginTop="@dimen/keyline_2"
         android:layout_marginBottom="@dimen/keyline_2" />
 
-    <com.github.droibit.sample.materialthemebuilder.widget.TypeAttributeView
+    <com.example.android.materialthemebuilder.widget.TypeAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="textAppearanceLabelLarge"
@@ -142,7 +142,7 @@
         android:layout_marginTop="@dimen/keyline_2"
         android:layout_marginBottom="@dimen/keyline_2" />
 
-    <com.github.droibit.sample.materialthemebuilder.widget.TypeAttributeView
+    <com.example.android.materialthemebuilder.widget.TypeAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="textAppearanceLabelMedium"
@@ -152,7 +152,7 @@
         android:layout_marginTop="@dimen/keyline_2"
         android:layout_marginBottom="@dimen/keyline_2" />
 
-    <com.github.droibit.sample.materialthemebuilder.widget.TypeAttributeView
+    <com.example.android.materialthemebuilder.widget.TypeAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="textAppearanceLabelSmall"

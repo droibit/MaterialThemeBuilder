@@ -9,7 +9,7 @@
     android:paddingEnd="@dimen/keyline_4"
     android:paddingBottom="@dimen/keyline_5">
 
-    <com.github.droibit.sample.materialthemebuilder.widget.LabelLinkView
+    <com.example.android.materialthemebuilder.widget.LabelLinkView
         android:id="@+id/label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -20,7 +20,7 @@
 
     <!-- colorPrimary -->
 
-    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+    <com.example.android.materialthemebuilder.widget.ColorAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/keyline_2"
@@ -29,7 +29,7 @@
         app:colorFillColor="?attr/colorPrimary"
         app:colorStrokeColor="?attr/colorOnBackground" />
 
-    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+    <com.example.android.materialthemebuilder.widget.ColorAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/keyline_2"
@@ -38,7 +38,7 @@
         app:colorFillColor="?attr/colorOnPrimary"
         app:colorStrokeColor="?attr/colorOnBackground" />
 
-    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+    <com.example.android.materialthemebuilder.widget.ColorAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/keyline_2"
@@ -47,7 +47,7 @@
         app:colorFillColor="?attr/colorPrimaryContainer"
         app:colorStrokeColor="?attr/colorOnBackground" />
 
-    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+    <com.example.android.materialthemebuilder.widget.ColorAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/keyline_2"
@@ -56,7 +56,7 @@
         app:colorFillColor="?attr/colorOnPrimaryContainer"
         app:colorStrokeColor="?attr/colorOnBackground" />
 
-    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+    <com.example.android.materialthemebuilder.widget.ColorAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/keyline_2"
@@ -67,7 +67,7 @@
 
     <!-- colorSecondary -->
 
-    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+    <com.example.android.materialthemebuilder.widget.ColorAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/keyline_2"
@@ -76,7 +76,7 @@
         app:colorFillColor="?attr/colorSecondary"
         app:colorStrokeColor="?attr/colorOnBackground" />
 
-    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+    <com.example.android.materialthemebuilder.widget.ColorAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/keyline_2"
@@ -85,7 +85,7 @@
         app:colorFillColor="?attr/colorOnSecondary"
         app:colorStrokeColor="?attr/colorOnBackground" />
 
-    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+    <com.example.android.materialthemebuilder.widget.ColorAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/keyline_2"
@@ -94,7 +94,7 @@
         app:colorFillColor="?attr/colorSecondaryContainer"
         app:colorStrokeColor="?attr/colorOnBackground" />
 
-    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+    <com.example.android.materialthemebuilder.widget.ColorAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/keyline_2"
@@ -105,7 +105,7 @@
 
     <!-- colorTertiary -->
 
-    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+    <com.example.android.materialthemebuilder.widget.ColorAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/keyline_2"
@@ -114,7 +114,7 @@
         app:colorFillColor="?attr/colorTertiary"
         app:colorStrokeColor="?attr/colorOnBackground" />
 
-    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+    <com.example.android.materialthemebuilder.widget.ColorAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/keyline_2"
@@ -123,7 +123,7 @@
         app:colorFillColor="?attr/colorOnTertiary"
         app:colorStrokeColor="?attr/colorOnBackground" />
 
-    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+    <com.example.android.materialthemebuilder.widget.ColorAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/keyline_2"
@@ -132,7 +132,7 @@
         app:colorFillColor="?attr/colorTertiaryContainer"
         app:colorStrokeColor="?attr/colorOnBackground" />
 
-    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+    <com.example.android.materialthemebuilder.widget.ColorAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/keyline_2"
@@ -143,7 +143,7 @@
 
     <!-- colorError -->
 
-    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+    <com.example.android.materialthemebuilder.widget.ColorAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/keyline_2"
@@ -152,7 +152,7 @@
         app:colorFillColor="?attr/colorError"
         app:colorStrokeColor="?attr/colorOnBackground" />
 
-    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+    <com.example.android.materialthemebuilder.widget.ColorAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/keyline_2"
@@ -161,7 +161,7 @@
         app:colorFillColor="?attr/colorOnError"
         app:colorStrokeColor="?attr/colorOnBackground" />
 
-    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+    <com.example.android.materialthemebuilder.widget.ColorAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/keyline_2"
@@ -170,7 +170,7 @@
         app:colorFillColor="?attr/colorErrorContainer"
         app:colorStrokeColor="?attr/colorOnBackground" />
 
-    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+    <com.example.android.materialthemebuilder.widget.ColorAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/keyline_2"
@@ -181,7 +181,7 @@
 
     <!-- colorSurface -->
 
-    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+    <com.example.android.materialthemebuilder.widget.ColorAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/keyline_2"
@@ -190,7 +190,7 @@
         app:colorFillColor="?attr/colorSurface"
         app:colorStrokeColor="?attr/colorOnBackground" />
 
-    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+    <com.example.android.materialthemebuilder.widget.ColorAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/keyline_2"
@@ -199,7 +199,7 @@
         app:colorFillColor="?attr/colorOnSurface"
         app:colorStrokeColor="?attr/colorOnBackground" />
 
-    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+    <com.example.android.materialthemebuilder.widget.ColorAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/keyline_2"
@@ -208,7 +208,7 @@
         app:colorFillColor="?attr/colorSurfaceVariant"
         app:colorStrokeColor="?attr/colorOnBackground" />
 
-    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+    <com.example.android.materialthemebuilder.widget.ColorAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/keyline_2"
@@ -217,7 +217,7 @@
         app:colorFillColor="?attr/colorOnSurfaceVariant"
         app:colorStrokeColor="?attr/colorOnBackground" />
 
-    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+    <com.example.android.materialthemebuilder.widget.ColorAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/keyline_2"
@@ -226,7 +226,7 @@
         app:colorFillColor="?attr/colorSurfaceInverse"
         app:colorStrokeColor="?attr/colorOnBackground" />
 
-    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+    <com.example.android.materialthemebuilder.widget.ColorAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/keyline_2"
@@ -235,7 +235,7 @@
         app:colorFillColor="?attr/colorOnSurfaceInverse"
         app:colorStrokeColor="?attr/colorOnBackground" />
 
-    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+    <com.example.android.materialthemebuilder.widget.ColorAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/keyline_2"
@@ -246,7 +246,7 @@
 
     <!-- colorBackground -->
 
-    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+    <com.example.android.materialthemebuilder.widget.ColorAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/keyline_2"
@@ -255,7 +255,7 @@
         app:colorFillColor="?android:attr/colorBackground"
         app:colorStrokeColor="?attr/colorOnBackground" />
 
-    <com.github.droibit.sample.materialthemebuilder.widget.ColorAttributeView
+    <com.example.android.materialthemebuilder.widget.ColorAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/keyline_2"

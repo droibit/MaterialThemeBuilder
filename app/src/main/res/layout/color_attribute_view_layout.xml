@@ -15,7 +15,7 @@
         android:textColor="@color/material_on_background_emphasis_medium"
         tools:text="colorPrimary" />
 
-    <com.github.droibit.sample.materialthemebuilder.widget.ColorDotView
+    <com.example.android.materialthemebuilder.widget.ColorDotView
         android:id="@+id/color_dot"
         android:layout_width="18dp"
         android:layout_height="18dp"

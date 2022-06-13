@@ -9,7 +9,7 @@
     android:paddingStart="@dimen/keyline_4"
     android:paddingEnd="@dimen/keyline_4">
 
-    <com.github.droibit.sample.materialthemebuilder.widget.LabelLinkView
+    <com.example.android.materialthemebuilder.widget.LabelLinkView
         android:id="@+id/label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -18,7 +18,7 @@
         app:leadingIcon="@drawable/ic_rounded_corner_24dp"
         app:linkUrl="https://material.io/design/shape/about-shape.html" />
 
-    <com.github.droibit.sample.materialthemebuilder.widget.ShapeAttributeView
+    <com.example.android.materialthemebuilder.widget.ShapeAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="shapeAppearanceSmallComponent"
@@ -29,7 +29,7 @@
         android:layout_marginTop="@dimen/keyline_2"
         android:layout_marginBottom="@dimen/keyline_2" />
 
-    <com.github.droibit.sample.materialthemebuilder.widget.ShapeAttributeView
+    <com.example.android.materialthemebuilder.widget.ShapeAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="shapeAppearanceMediumComponent"
@@ -40,7 +40,7 @@
         android:layout_marginTop="@dimen/keyline_2"
         android:layout_marginBottom="@dimen/keyline_2" />
 
-    <com.github.droibit.sample.materialthemebuilder.widget.ShapeAttributeView
+    <com.example.android.materialthemebuilder.widget.ShapeAttributeView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="shapeAppearanceLargeComponent"

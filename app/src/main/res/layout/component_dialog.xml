@@ -9,7 +9,7 @@
     android:paddingStart="@dimen/keyline_4"
     android:paddingEnd="@dimen/keyline_4">
 
-    <com.github.droibit.sample.materialthemebuilder.widget.LabelLinkView
+    <com.example.android.materialthemebuilder.widget.LabelLinkView
         android:id="@+id/label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
