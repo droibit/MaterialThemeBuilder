@@ -18,10 +18,12 @@
         app:layout_constraintTop_toTopOf="parent"
         app:linkUrl="https://material.io/design/components/bottom-navigation.html" />
 
+    <!-- TODO: Specifying `wrap_content` does not work as expected. -->
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation_view"
+        style="@style/Widget.MaterialComponents.BottomNavigationView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="72dp"
         android:layout_marginTop="@dimen/keyline_4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
